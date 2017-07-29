@@ -1,0 +1,16 @@
+{
+  "name": "htmlcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "utkarsh85 <utkarshsharma8519@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1"
+  }
+}

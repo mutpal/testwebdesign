@@ -1,0 +1,127 @@
+
+	  
+}
+body{
+max-width: 1200;
+margin: auto;
+}
+header{	margin-bottom: 50px;
+		background-color: rgba(30,34,35,.05)}
+
+*{ 
+			font-style: trebuchet; }
+
+.logo{background: url(logo.png); 
+		background-repeat: no-repeat; 
+		width:120px;
+	    height:70px;
+		float: left;
+		background-size:120px 70px;}
+
+.wrapper{margin: 0 auto;
+		width: 96%;
+		max-width: 1200px;
+			}
+
+nav{float: right;}
+ 
+.wrapper:after{
+	display:block;
+	content: "";
+	clear: both;
+
+}
+
+
+nav li {float: left;
+		margin-top: 32px;
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border: 1px solid black;
+		border-radius: 5px;
+		margin-left:20px;
+		margin-right: 20px; }
+
+nav li a{text-decoration: none;
+			color: #000000}
+
+nav li:hover{-webkit-transition-duration: .5s;
+	color:#ffffff;
+	background-color:black;
+    
+   -webkit-transform: translateY(-10px);
+	   -moz-transform: translateY(-10px);
+	    -ms-transform: translateY(-10px);
+	     -o-transform: translateY(-10px);
+	        transform: translateY(-10px);
+
+
+    cursor: pointer;
+	
+	
+}
+header:after{
+	display:block;
+	content:"";
+	clear:both;
+}
+
+.hero{margin: auto;
+	position:relative;
+		
+		max-width: 1200;
+		height: 400px;
+		background:url("../img/herobanner.jpg");
+		background-repeat: no-repeat;
+		}
+.imgborder{height:380;
+		width:1180;
+		border:2px white solid;
+		top:8px;
+		left:8px;
+		background-color:rgba(242, 242, 242, 0.25);
+		position:relative;
+	}
+section{width: auto;
+ max-width: 1200;
+ height: auto;
+margin: auto;}
+
+section p{
+	display: block;
+	height: 300px;
+	width: 200px;
+	float: left;
+padding: 20px;}
+
+section:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+footer:after{
+display: block;
+	content: "";
+	clear: both;	
+}
+footer{color: white;
+	height: 200px;
+background-color:#696969;}
+
+footer ul{float: left;
+		list-style-type: none;
+		padding: 30px;}
+
+div img{float: right;
+		width:20px;
+		height: 20px;}
+
+.homeicon:hover{ -webkit-transition-duration:.5s;
+	-webkit-transform: scale(1.5);
+	   -moz-transform: scale(1.5);
+	    -ms-transform: scale(1.5);
+	     -o-transform: scale(1.5);
+	        transform: scale(1.5);
+}

@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Contact Us</title>
+		<meta name="description" content="Contact MINCH SECURE">
+		<link rel="stylesheet" href="/public/css/contact.css">
+	</head>
+
+	<body>
+		 	<h1>Fill the form below to get in touch !</h1>
+			<div class="contactform">
+				<form action="/got" method="GET">
+					<input type="file" accept="image">
+
+					<div class="field">
+						<label  for="yname">Your Name :</label>
+						<input min="10" type="text" name="name" id="yname" autofocus placeholder="eg. foo bar" required pattern="[A-Z]+" title="Your name must be in capitals only!">
+					</div>
+					<div class="field">
+						<label for="roll"> Your Roll :</label>
+						<input type="number" name="roll" id="roll" size="87" >
+						<input type="date" name="month">
+
+					</div>
+					<div class="field">
+						<label for="email">Your Email :  </label>
+						<input type="email"	name="email"	id="email">
+					</div>
+					
+					
+					
+					<div class="field">
+						<label for="pricerange">Pick Price Range</label>
+						<input type="color" name="pricerange" >
+					</div>
+					<button type="submit" name="bcontact" id="okb">submit</button>
+				</form>
+			</div>
+			
+			
+	</body>
+
+</html>

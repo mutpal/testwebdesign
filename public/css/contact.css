@@ -1,0 +1,8 @@
+.contactform{width: 500px;
+	height: 200px;
+	margin: 100px auto;
+	border: 2px black solid;
+	padding: 20px;	
+		}
+	label{padding-right: 20px;
+		width:25px;}
